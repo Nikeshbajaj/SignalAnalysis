@@ -1,4 +1,4 @@
-# SignalAnalysis
+# Signal Analysis
 ## Tutorials on Signal Processing and Optimization techniques
 
 * Linear Algebra
