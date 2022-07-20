@@ -1,6 +1,6 @@
-# Signal Analysis
-## Tutorials on Signal Processing and Optimization techniques
+# Tutorials on Signal Processing and Optimization techniques
 
-* Linear Algebra
+* [Linear Algebra](la.md)
+* [Least Square](lms.md)
 * [Principle Compononent Ananlysis](pca.md)
 * [Independent Compononent Ananlysis](ica.md)
