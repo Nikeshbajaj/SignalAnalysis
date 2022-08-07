@@ -88,7 +88,8 @@ $$X^T = \left[\begin{array}{crc}
   \end{array}\right]
 $$
 
-
+<!--
+###-------------Commented
 <p style="border:2px; border-style:solid; border-color:#3377FF; padding: 1em;">  
 
 <b>Theorem</b>: <i>Covariance matrix is always symmetric</i>
@@ -99,8 +100,9 @@ $$C_x^T = (X^TX)^T = X^T(X^{T})^T = X^TX = C_x$$
 
 <i>QED</i>
 </p>
-
+-->
 <!--
+###-------------Commented
 <p style="border:2px; border-style:solid; border-color:#3377FF; padding: 1em;">
 <table>
 <tr>
@@ -137,6 +139,7 @@ $$(AB)^T = B^TA^T$$
 
 
 <!--
+###-------------Commented
 <p style="border:2px; border-style:solid; border-color:#3377FF; padding: 1em;">
 <table width: 100%;>
   <tr>
@@ -152,6 +155,7 @@ $$C_x^T = (X^TX)^T = X^T(X^{T})^T = X^TX = C_x$$
 -->
 
 <!--
+###-------------Commented
 <hr>
 # Chapter 2
 -->
