@@ -16,10 +16,9 @@ layout: default
 
 
 ## Covariance Matrix
+Consider a matrix $$X \in R^{n\times m}$$, where $$X$$ has $$n$$ samples of $$m$$-different measuresments, i.e. $$m$$-channels signals. Typically, $$n>m$$. In other domain, $$m$$ is typically known as features, sources, independent variables etc. So, X is an Matrix with m features (measurements).
 
-Consider a matrix $$X \in R^{n\times m}$$, where $$X$$ has $$n$$ samples of $$m$$-different measuresments, i.e. $$m$$-channels signals. Typically, $$n>m$$.
 Then Covariance Matrix $$C_x$$ is computed as:
-
 $$C_x =  X^TX$$
 
 which will be a $$m \times m$$ matrix
@@ -28,19 +27,18 @@ Now the question is, what it is, and what does it tell us. To understand, this l
 
 $$X = 
   \left[\begin{array}{cc} 
-  1 & 3 & 6 & 7\\
-  2 & 3 & 3 & 7\\
-  3 & 4 & 3 & 7\\
-  4 & 5 & 2 & 7\\
-  5 & 5 & 2 & 7\\
+  -2& 2& -4& 1&  \\
+  -1& 1& -4& -1&  \\
+  0& 0& 1& 2&  \\
+  1& -1& 3& -2&  \\
+ 2& -2& 4& 0&  \\
   \end{array}\right]
 $$ which leads to  $$X = 
   \left[\begin{array}{cc} 
-  1 & 3 & 6 & 7\\
-  2 & 3 & 3 & 7\\
-  3 & 4 & 3 & 7\\
-  4 & 5 & 2 & 7\\
-  5 & 5 & 2 & 7\\
+  10 & -10 & 23 & -3 &  \\
+  -10 & 10 & -23 & 3 &  \\
+  23 & -23 & 58 & -4 &  \\
+  -3 & 3 & -4 & 10 &  \\
   \end{array}\right]
 $$
 
