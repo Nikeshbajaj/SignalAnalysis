@@ -50,12 +50,10 @@ In python it is super easy to compute, assuming X is a numpy array: ```Cx = X.T@
 If look into details, what is happining is, we are computing dot product of every coulumn of $$X$$ with every row of $$X^T$$ (which is actually the column of $$X$$).
 So, we have dot-product of each column with each other column, including it self. Lets name each column of $$X$$ as $$x_i$$ then
 
-$$X = \left[x_1, x_2, x_3, x_4\right]$$
-
 $$X^T = \left[\begin{array}{r}x_1^T\\
                             x_2^T\\
                             x_3^T\\
-                            x_4^T\\ \end{array}\right]$$
+                            x_4^T\\ \end{array}\right]$$  and $$X = \left[x_1, x_2, x_3, x_4\right]$$
 
  $$C_x = 
    \frac{1}{n} \left[\begin{array}{rrrr} 
