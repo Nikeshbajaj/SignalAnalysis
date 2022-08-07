@@ -29,29 +29,38 @@ The choice of X is very specific at this time (i.e. mean of each coumun is zero)
 
 $$X = 
   \left[\begin{array}{rrrr} 
-  -2&  2& -4&  1&  \\
-  -1&  1& -4& -1&  \\
-   0&  0&  1&  2&  \\
-   1& -1&  3& -2&  \\
-   2& -2&  4&  0&  \\
+  -2&  2& -4&  1 \\
+  -1&  1& -4& -1 \\
+   0&  0&  1&  2 \\
+   1& -1&  3& -2 \\
+   2& -2&  4&  0 \\
   \end{array}\right]
 $$
 which leads to  $$C_x = 
   \left[\begin{array}{rrrr} 
-2.0 & -2.0 & 4.6 & -0.6 &  \\
--2.0 & 2.0 & -4.6 & 0.6 &  \\
-4.6 & -4.6 & 11.6 & -0.8 &  \\
--0.6 & 0.6 & -0.8 & 2.0 &  \\
+2.0 & -2.0 & 4.6 & -0.6 \\
+-2.0 & 2.0 & -4.6 & 0.6 \\
+4.6 & -4.6 & 11.6 & -0.8\\
+-0.6 & 0.6 & -0.8 & 2.0 \\
   \end{array}\right]
 $$
 
 In python it is super easy to compute, assuming X is a numpy array: ```Cx = X.T@X/X.shape[0]```
 
 If look into details, what is happining is, we are computing dot product of every coulumn of $$X$$ with every row of $$X^T$$ (which is actually the column of $$X$$).
-So, we have dot-product of each column with each other column, including it self. 
+So, we have dot-product of each column with each other column, including it self. Lets name each column of $$X$$ as $$x_i$$ then
+
+$$X = \left[x_1, x_2, x_3, x_4\right]$$
 
 
-
+ $$C_x = 
+  \left[\begin{array}{rrrr} 
+ x_1^Tx_1 & x_2^Tx_1 & x_3^Tx_1 & x_4^Tx_1  \\
+ x_1^Tx_2 & x_2^Tx_2 & x_3^Tx_2 & x_4^Tx_2  \\
+ x_1^Tx_3 & x_2^Tx_3 & x_3^Tx_3 & x_4^Tx_3  \\
+ x_1^Tx_4 & x_2^Tx_4 & x_3^Tx_4 & x_4^Tx_4  \\
+  \end{array}\right]
+$$
 
 <!--
 <hr>
