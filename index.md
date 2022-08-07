@@ -24,7 +24,7 @@ $$C_x =  X^TX$$
 which will be a $$m \times m$$ matrix.
 
 Now the question is, what it is, and what does it tell us. To understand, this let's take a small example and go thorugh it. Let's consider a $$X$$ as
-The choice of X is very specific at this time, which will be clear in short.
+The choice of X is very specific at this time (i.e. mean of each coumun is zero), which will be clear in short.
 $$X = 
   \left[\begin{array}{cc} 
   -2&  2& -4&  1&  \\
