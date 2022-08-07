@@ -96,7 +96,9 @@ Notic that $$C_x$$ is symmetric, infact, Covariance Matrix is always Symmetric (
 
 
 <hr>
+
 # Appendix
+
 <hr>
 
 <!--
