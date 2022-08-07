@@ -81,28 +81,30 @@ $$
 **Proof**: lets ignore n
 
 $$C_x^T = (X^TX)^T = X^T(X^{T})^T = X^TX = C_x$$
+
 *QED*
 
 -----------------------------------------------------------
 
----
-**NOTE**
 
-It works with almost all markdown flavours (the below blank line matters).
-
----
-
-
-\fbox{
+\fbox{\begin{minipage}{15em}
 **Theorem**: *Covariance matrix is always symmetric*
 
 **Proof**: lets ignore n
 
 $$C_x^T = (X^TX)^T = X^T(X^{T})^T = X^TX = C_x$$
 *QED*
-}
+\end{minipage}}
 
+<p style="border:3px; border-style:solid; border-color:#FF0000; padding: 1em;">
+  **Theorem**: *Covariance matrix is always symmetric*
 
+  **Proof**: lets ignore n
+
+  $$C_x^T = (X^TX)^T = X^T(X^{T})^T = X^TX = C_x$$
+
+  *QED*
+</p>
 
 
 <!--
