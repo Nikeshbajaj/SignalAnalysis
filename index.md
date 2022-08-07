@@ -55,6 +55,18 @@ $$X^T = \left[\begin{array}{r}x_1^T\\
                             x_3^T\\
                             x_4^T\\ \end{array}\right]$$  and $$X = \left[x_1, x_2, x_3, x_4\right]$$
 
+
+$$X^T = \left[\begin{array}{crc}
+                        - & x_1^T & -\\
+                        - & x_2^T & -\\
+                        - & x_3^T & -\\
+                        - & x_4^T & -\\ \end{array}\right]$$ X = \left[\begin{array}{rrrr}
+                        |   & |  & |   & |\\
+                        x_1 & x_2& x_3 & x_4\\
+                        |   & |  & |   & |\\  \end{array}\right]$$
+
+
+
  $$C_x = 
    \frac{1}{n} \left[\begin{array}{rrrr} 
  x_1^Tx_1 & x_1^Tx_2 & x_1^Tx_3 & x_1^Tx_4  \\
