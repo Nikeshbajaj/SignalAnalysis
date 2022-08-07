@@ -21,10 +21,10 @@ Consider a matrix $$X \in R^{n\times m}$$, where $$X$$ has $$n$$ samples of $$m$
 Then Covariance Matrix $$C_x$$ is computed as:
 $$C_x =  X^TX$$
 
-which will be a $$m \times m$$ matrix
+which will be a $$m \times m$$ matrix.
 
 Now the question is, what it is, and what does it tell us. To understand, this let's take a small example and go thorugh it. Let's consider a $$X$$ as
-
+The choice of X is very specific at this time, which will be clear in short.
 $$X = 
   \left[\begin{array}{cc} 
   -2& 2& -4& 1&  \\
@@ -33,7 +33,7 @@ $$X =
   1& -1& 3& -2&  \\
  2& -2& 4& 0&  \\
   \end{array}\right]
-$$ which leads to  $$X = 
+$$     which leads to  $$C_x = 
   \left[\begin{array}{cc} 
   10 & -10 & 23 & -3 &  \\
   -10 & 10 & -23 & 3 &  \\
@@ -41,6 +41,10 @@ $$ which leads to  $$X =
   -3 & 3 & -4 & 10 &  \\
   \end{array}\right]
 $$
+
+If look into details, what is happining is, we are computing dot product of every coulumn of $$X$$ with every row of $$X^T$$ (which is actually the column of $$X$$).
+So, we have dot-product of each column with each other column, including it self. 
+
 
 
 
