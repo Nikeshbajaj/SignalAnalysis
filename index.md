@@ -46,7 +46,10 @@ which leads to  $$C_x =
   \end{array}\right]
 $$
 
-In python it is super easy to compute, assuming X is a numpy array ::: ```Cx = X.T@X/X.shape[0]``` :::
+In python it is super easy to compute, assuming X is a numpy array 
+::: 
+    ```Cx = X.T@X/X.shape[0]``` 
+:::
 
 If look into details, what is happining is, we are computing dot product of every coulumn of $$X$$ with every row of $$X^T$$ (which is actually the column of $$X$$).
 So, we have dot-product of each column with each other column, including it self. Lets name each column of $$X$$ as $$x_i$$ then
@@ -89,8 +92,15 @@ $$X^T = \left[\begin{array}{crc}
   \end{array}\right]
 $$
 
-Notic that $$C_x$$ is symmetric, infact, Covariance Matrix is always Symmetric (Theorem A.1), Check Proof in Appendix
+Notic that $$C_x$$ is symmetric, infact, Covariance Matrix is always Symmetric (Theorem A.1), Check Proof in Appendix. Now observing diagonal elements of $$C_x$$, they are dot-product of a column with it-self divided by **n**. Since each column has zero mean, this value $$\frac{1}{n} x_i^Tx_i$$ is nothing but *variance*. 
 
+$$\frac{1}{n} x_i^Tx_i = \frac{1}{n}\sum_k x_i(k)^2 = \frac{1}{n}\sum_k ( x_i(k)-\tilde{x}_i )^2 = \sigma_{x_i}^2$$
+
+where $$\tilde{x}_i$$ is mean of $$x_i$$ which is zero in our chosen matrix. On the other hand, off-diagonal elements are *cross-variance* or ***covariance** between  
+two coulumns (two different measurements, two different features), that is: $$\sigma_{x_i,y_j}^2 = \frac{1}{n} x_i^Tx_j $$. 
+
+### Covariance and Correlation
+There is direct relation between covariance and cross-correlation. Cross-correlation between two measurements (x, and y ) is defined as $$C_xy = \frac{1}{n}\sum_k ( x(k)-\tilde{x} )( y(k)-\tilde{y})/(\sigma_{x}\sigma_{y})$$, whereas , for Coavriance, denominator terms is not there. 
 
 
 
