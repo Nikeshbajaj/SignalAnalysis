@@ -50,20 +50,21 @@ In python it is super easy to compute, assuming X is a numpy array: ```Cx = X.T@
 If look into details, what is happining is, we are computing dot product of every coulumn of $$X$$ with every row of $$X^T$$ (which is actually the column of $$X$$).
 So, we have dot-product of each column with each other column, including it self. Lets name each column of $$X$$ as $$x_i$$ then
 
+<!--
 $$\begin{centre}
 $$X^T = \left[\begin{array}{r}x_1^T\\
                             x_2^T\\
                             x_3^T\\
                             x_4^T\\ \end{array}\right]$$  and $$X = \left[x_1, x_2, x_3, x_4\right]$$
 \end{centre}$$
-
+-->
 
 
 <p style="text-align:center">
-$$X^T = \left[\begin{array}{r}x_1^T\\
+$X^T = \left[\begin{array}{r}x_1^T\\
                             x_2^T\\
                             x_3^T\\
-                            x_4^T\\ \end{array}\right]$$  and $$X = \left[x_1, x_2, x_3, x_4\right]$$
+                            x_4^T\\ \end{array}\right]$  and $X = \left[x_1, x_2, x_3, x_4\right]$
 </p>
 
 
@@ -122,7 +123,7 @@ $$C_x^T = (X^TX)^T = X^T(X^{T})^T = X^TX = C_x$$
 </p>
 
 
-
+-----------------------
 <p style="border:2px; border-style:solid; border-color:#3377FF; padding: 1em;">  
 
 <b>Theorem</b>: <i>Covariance matrix is always symmetric</i>
@@ -138,6 +139,7 @@ $$C_x^T = (X^TX)^T = X^T(X^{T})^T = X^TX = C_x$$
 $$(AB)^T = B^TA^T$$
 
 </p>
+-----------------------
 
 
 
