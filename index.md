@@ -4,17 +4,17 @@ layout: default
 ---
 <script src='https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.4/MathJax.js?config=default'></script>
 
-# Table of Contents
+# Table of Contents (in progress..)
 * [Chapter 1: Linear Algebra](#chapter-1)
 * [Chapter 2: Least Square](#chapter-1)
 * [Chapter 3: Principle Compononent Ananlysis](#chapter-1)
 * [Chapter 4: Independent Compononent Ananlysis](#chapter-1)
 
-
+<hr>
 # Chapter 1
 ## Linear Algebra
 
-
+<hr>
 # Chapter 2
 ## Covariance Matrix
 
