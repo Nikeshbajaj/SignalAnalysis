@@ -45,6 +45,8 @@ which leads to  $$C_x =
   \end{array}\right]
 $$
 
+In pythoon it is super easy to compute: ```Cx = X.T@X```
+
 If look into details, what is happining is, we are computing dot product of every coulumn of $$X$$ with every row of $$X^T$$ (which is actually the column of $$X$$).
 So, we have dot-product of each column with each other column, including it self. 
 
