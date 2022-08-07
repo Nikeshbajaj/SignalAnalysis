@@ -125,7 +125,7 @@ $$(AB)^T = B^TA^T$$
 </p>
 -->
 
-<table  width: 100%;>
+<table>
   <tr>
   <td><p style="border:2px; border-style:solid; border-color:#3377FF; padding: 1em;">
     <b>Theorem</b>: <i>Covariance matrix is always symmetric</i>
@@ -137,7 +137,7 @@ $$(AB)^T = B^TA^T$$
 </table>
 
 
-<table width: 100%;>
+<table>
   <tr>
     <td><b>Theorem</b>: <i>Covariance matrix is always symmetric</i>
     <br><b>Proof</b>: lets ignore <b>n</b>
