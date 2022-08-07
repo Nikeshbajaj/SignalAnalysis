@@ -59,17 +59,7 @@ $$X^T = \left[\begin{array}{r}x_1^T\\
 \end{centre}$$
 -->
 
-
-
-
----
-x  |   y  | x
-x  |   y  | x
----
-
-
-<p style="text-align:center">
-</p>
+<p style="text-align:center">...</p>
 
 
 $$X^T = \left[\begin{array}{r}x_1^T\\
@@ -113,23 +103,42 @@ $$C_x^T = (X^TX)^T = X^T(X^{T})^T = X^TX = C_x$$
 
 <p style="border:2px; border-style:solid; border-color:#3377FF; padding: 1em;">
 <table>
-  <tr>
-    <td>
-      <b>Theorem</b>: <i>Covariance matrix is always symmetric</i>
-      <br>
-      <b>Proof</b>: lets ignore <b>n</b>
-      
-      $$C_x^T = (X^TX)^T = X^T(X^{T})^T = X^TX = C_x$$
+<tr>
+<td>
+<b>Theorem</b>: <i>Covariance matrix is always symmetric</i>
+<br>
+<b>Proof</b>: lets ignore <b>n</b>
+  
+$$C_x^T = (X^TX)^T = X^T(X^{T})^T = X^TX = C_x$$
 
-      <i>QED</i>
-    </td
-   
-   <td>
-   $$(AB)^T = B^TA^T$$
-   </td> 
-  </tr>
+<i>QED</i>
+</td
+<td>
+$$(AB)^T = B^TA^T$$
+</td>
+</tr>
 </table>
 </p>
+
+<table>
+<tr>
+<td>
+<b>Theorem</b>: <i>Covariance matrix is always symmetric</i>
+<br>
+<b>Proof</b>: lets ignore <b>n</b>
+  
+$$C_x^T = (X^TX)^T = X^T(X^{T})^T = X^TX = C_x$$
+
+<i>QED</i>
+</td
+<td>
+$$(AB)^T = B^TA^T$$
+</td>
+</tr>
+</table>
+
+
+
 
 
 <!--
