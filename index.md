@@ -45,7 +45,7 @@ which leads to  $$C_x =
   \end{array}\right]
 $$
 
-In python it is super easy to compute, assuming X is a numpy array: ```Cx = X.T@X/X.shape[0]```
+In python it is super easy to compute, assuming X is a numpy array ::: ```Cx = X.T@X/X.shape[0]``` :::
 
 If look into details, what is happining is, we are computing dot product of every coulumn of $$X$$ with every row of $$X^T$$ (which is actually the column of $$X$$).
 So, we have dot-product of each column with each other column, including it self. Lets name each column of $$X$$ as $$x_i$$ then
