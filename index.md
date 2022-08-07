@@ -75,15 +75,14 @@ $$X^T = \left[\begin{array}{crc}
   \end{array}\right]
 $$
 
-!!! note
+::: warning
+Theorem: *Covariance matrix is always symmetric*
 
-        $$Theorem:$$ *Covariance matrix is always symmetric*
+**Proof**: lets ignore n
 
-        **Proof**: lets ignore n
-
-        $$C_x^T = (X^TX)^T = X^T(X^{T})^T = X^TX = C_x$$
-
-        *QED*
+$$C_x^T = (X^TX)^T = X^T(X^{T})^T = X^TX = C_x$$
+*QED*
+:::
 
 
 
