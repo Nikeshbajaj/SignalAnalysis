@@ -96,8 +96,8 @@ Notic that $$C_x$$ is symmetric, infact, Covariance Matrix is always Symmetric (
 
 
 <hr>
-
 # Appendix
+<hr>
 
 <!--
 ###-------------Commented
@@ -135,7 +135,7 @@ $$(AB)^T = B^TA^T$$
 </table>
 </p>
 -->
-
+<!--
 <table width="90%">
   <tr>
   <td><p style="border:2px; border-style:solid; border-color:#3377FF; padding: 1em;">
@@ -146,7 +146,7 @@ $$(AB)^T = B^TA^T$$
   <td>using $$(AB)^T = B^TA^T$$</td>
   </tr>
 </table>
-
+-->
 
 <table width="100%">
   <tr>
