@@ -9,6 +9,7 @@ layout: default
 * [Chapter 2: Least Square](#chapter-1)
 * [Chapter 3: Principle Compononent Ananlysis](#chapter-1)
 * [Chapter 4: Independent Compononent Ananlysis](#chapter-1)
+* [Appendix:Proofs](#appendix)
 
 <hr>
 # Chapter 1
@@ -88,6 +89,16 @@ $$X^T = \left[\begin{array}{crc}
   \end{array}\right]
 $$
 
+Notic that $$C_x$$ is symmetric, infact, Covariance Matrix is always Symmetric (Theorem A.1), Check Proof in Appendix
+
+
+
+
+
+<hr>
+
+# Appendix
+
 <!--
 ###-------------Commented
 <p style="border:2px; border-style:solid; border-color:#3377FF; padding: 1em;">  
@@ -128,7 +139,7 @@ $$(AB)^T = B^TA^T$$
 <table width="90%">
   <tr>
   <td><p style="border:2px; border-style:solid; border-color:#3377FF; padding: 1em;">
-    <b>Theorem</b>: <i>Covariance matrix is always symmetric</i>
+    <b>Theorem A.1</b>: <i>Covariance matrix is always symmetric</i>
     <br><b>Proof</b>: lets ignore <b>n</b>
       $$C_x^T = (X^TX)^T = X^T(X^{T})^T = X^TX = C_x$$
     <i>QED</i></p></td>
@@ -139,7 +150,7 @@ $$(AB)^T = B^TA^T$$
 
 <table width="100%">
   <tr>
-    <td><b>Theorem</b>: <i>Covariance matrix is always symmetric</i>
+    <td><b>Theorem A.1</b>: <i>Covariance matrix is always symmetric</i>
     <br><b>Proof</b>: lets ignore <b>n</b>
     $$C_x^T = (X^TX)^T = X^T(X^{T})^T = X^TX = C_x$$
     <i>QED</i></td>
