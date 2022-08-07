@@ -2,7 +2,7 @@
 title: Mathematical Methods for Signal Analysis
 layout: default
 ---
-<script src='https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.4/MathJax.js?config=default'></script>
+<!--<script src='https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.4/MathJax.js?config=default'></script> -->
 
 # Table of Contents (in progress..)
 * [Chapter 1: Linear Algebra](#chapter-1)
