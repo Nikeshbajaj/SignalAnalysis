@@ -85,6 +85,22 @@ $$C_x^T = (X^TX)^T = X^T(X^{T})^T = X^TX = C_x$$
 
 -----------------------------------------------------------
 
+---
+**NOTE**
+
+It works with almost all markdown flavours (the below blank line matters).
+
+---
+
+
+\fbox{
+**Theorem**: *Covariance matrix is always symmetric*
+
+**Proof**: lets ignore n
+
+$$C_x^T = (X^TX)^T = X^T(X^{T})^T = X^TX = C_x$$
+*QED*
+}
 
 
 
