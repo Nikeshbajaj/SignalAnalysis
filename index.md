@@ -28,7 +28,7 @@ Now the question is, what it is, and what does it tell us. To understand, this l
 The choice of X is very specific at this time (i.e. mean of each coumun is zero), which will be clear in short.
 
 $$X = 
-  \left[\begin{array}{cc} 
+  \left[\begin{array}{rrrr} 
   -2&  2& -4&  1&  \\
   -1&  1& -4& -1&  \\
    0&  0&  1&  2&  \\
@@ -37,7 +37,7 @@ $$X =
   \end{array}\right]
 $$
 which leads to  $$C_x = 
-  \left[\begin{array}{cc} 
+  \left[\begin{array}{rrrr} 
 2.0 & -2.0 & 4.6 & -0.6 &  \\
 -2.0 & 2.0 & -4.6 & 0.6 &  \\
 4.6 & -4.6 & 11.6 & -0.8 &  \\
