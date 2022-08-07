@@ -20,7 +20,7 @@ Consider a matrix $$X \in R^{n\times m}$$, where $$X$$ has $$n$$ samples of $$m$
 
 Then Covariance Matrix $$C_x$$ is computed as:
 
-$$C_x =  X^TX$$
+$$C_x =  \frac{1}{n} X^TX$$
 
 which will be a $$m \times m$$ matrix.
 
@@ -37,7 +37,7 @@ $$X =
   \end{array}\right]
 $$
 which leads to  $$C_x = 
-  \left[\begin{array}{cc} 
+  \frac{1}{5}\left[\begin{array}{cc} 
    10 & -10 &  23 & -3 &  \\
   -10 &  10 & -23 &  3 &  \\
    23 & -23 &  58 & -4 &  \\
@@ -45,7 +45,7 @@ which leads to  $$C_x =
   \end{array}\right]
 $$
 
-In python it is super easy to compute: ```Cx = X.T@X```
+In python it is super easy to compute, assuming X is a numpy array: ```Cx = X.T@X/X.shape[0]```
 
 If look into details, what is happining is, we are computing dot product of every coulumn of $$X$$ with every row of $$X^T$$ (which is actually the column of $$X$$).
 So, we have dot-product of each column with each other column, including it self. 
