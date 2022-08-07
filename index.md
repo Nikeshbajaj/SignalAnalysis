@@ -27,18 +27,18 @@ Now the question is, what it is, and what does it tell us. To understand, this l
 The choice of X is very specific at this time, which will be clear in short.
 $$X = 
   \left[\begin{array}{cc} 
-  -2& 2& -4& 1&  \\
-  -1& 1& -4& -1&  \\
-  0& 0& 1& 2&  \\
-  1& -1& 3& -2&  \\
- 2& -2& 4& 0&  \\
+  -2&  2& -4&  1&  \\
+  -1&  1& -4& -1&  \\
+   0&  0&  1&  2&  \\
+   1& -1&  3& -2&  \\
+   2& -2&  4&  0&  \\
   \end{array}\right]
 $$     which leads to  $$C_x = 
   \left[\begin{array}{cc} 
-  10 & -10 & 23 & -3 &  \\
-  -10 & 10 & -23 & 3 &  \\
-  23 & -23 & 58 & -4 &  \\
-  -3 & 3 & -4 & 10 &  \\
+   10 & -10 &  23 & -3 &  \\
+  -10 &  10 & -23 &  3 &  \\
+   23 & -23 &  58 & -4 &  \\
+  -3  &  3  & -4  &  10 &  \\
   \end{array}\right]
 $$
 
