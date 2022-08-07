@@ -136,7 +136,7 @@ $$C_x^T = (X^TX)^T = X^T(X^{T})^T = X^TX = C_x$$
    </td>   
    <td>
    $$(AB)^T = B^TA^T$$
-   <td> 
+   </td> 
   </tr>
 </table>
 </p>
