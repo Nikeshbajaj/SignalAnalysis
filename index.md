@@ -14,8 +14,7 @@ layout: default
 # Chapter 1
 ## Linear Algebra
 
-<hr>
-# Chapter 2
+
 ## Covariance Matrix
 
 Consider a matrix $$X \in R^{n\times m}$$, where $$X$$ has $$n$$ samples of $$m$$-different measuresments, i.e. $$m$$-channels signals. Typically, $$n>m$$.
@@ -25,10 +24,29 @@ $$C_x =  X^TX$$
 
 which will be a $$m \times m$$ matrix
 
-Now the question is, what it is, and what does it tell us.
+Now the question is, what it is, and what does it tell us. To understand, this let's take a small example and go thorugh it. Let's consider a $$X$$ as
+
+$$X = 
+  \left[\begin{array}{cc} 
+  1 & 3 & 6 & 7\\
+  2 & 3 & 3 & 7\\
+  3 & 4 & 3 & 7\\
+  4 & 5 & 2 & 7\\
+  5 & 5 & 2 & 7\\
+  \end{array}\right]
+$$ which leads to  $$X = 
+  \left[\begin{array}{cc} 
+  1 & 3 & 6 & 7\\
+  2 & 3 & 3 & 7\\
+  3 & 4 & 3 & 7\\
+  4 & 5 & 2 & 7\\
+  5 & 5 & 2 & 7\\
+  \end{array}\right]
+$$
 
 
 
-
-
-
+<!--
+<hr>
+# Chapter 2
+-->
