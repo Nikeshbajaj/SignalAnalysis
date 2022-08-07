@@ -4,6 +4,10 @@ layout: default
 ---
 <!--<script src='https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.4/MathJax.js?config=default'></script> -->
 
+The objective of this e-book or set of tutorials is to not just go through the mathematical details of approaches but discuss the interepretation in great details to have it on finger-tips. We will dive into details, with a little informal way, see the regrouse math behind and most importantly, we would write a small piece of code for understanding the concept. I will try to make it fun to learn about all this, Not for you, for me (at least) and hope you might enjoy too ;). 
+
+
+
 # Table of Contents (in progress...)
 * [Chapter 1: Linear Algebra](#chapter-1)
 * [Chapter 2: Least Square](#chapter-1)
