@@ -130,7 +130,7 @@ $$(AB)^T = B^TA^T$$
     <br><b>Proof</b>: lets ignore <b>n</b>
       $$C_x^T = (X^TX)^T = X^T(X^{T})^T = X^TX = C_x$$
     <i>QED</i></td>
-  <td>$$(AB)^T = B^TA^T$$</td>
+  <td>using $$(AB)^T = B^TA^T$$</td>
   </tr>
 </table>
 </p>
@@ -143,7 +143,7 @@ $$(AB)^T = B^TA^T$$
 <br><b>Proof</b>: lets ignore <b>n</b>
 $$C_x^T = (X^TX)^T = X^T(X^{T})^T = X^TX = C_x$$
 <i>QED</i></td>
-    <td>$$(AB)^T = B^TA^T$$</td>
+    <td> using $$(AB)^T = B^TA^T$$</td>
     <td>.</td>
   </tr>
 </table>
