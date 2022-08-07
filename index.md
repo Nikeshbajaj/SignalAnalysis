@@ -54,7 +54,7 @@ $$X = \left[x_1, x_2, x_3, x_4\right]$$
 $$X^T = \left[\begin{array}{x_1^T\\
                             x_2^T\\
                             x_3^T\\
-                            x_4^T\\ \right]$$
+                            x_4^T\\ \end{array}\right]$$
 
  $$C_x = 
    \frac{1}{n} \left[\begin{array}{rrrr} 
