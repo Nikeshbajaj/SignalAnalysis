@@ -57,11 +57,11 @@ $$X^T = \left[\begin{array}{x_1^T\\
                             x_4^T\\ \right]$$
 
  $$C_x = 
-  \left[\begin{array}{rrrr} 
- x_1^Tx_1 & x_2^Tx_1 & x_3^Tx_1 & x_4^Tx_1  \\
- x_1^Tx_2 & x_2^Tx_2 & x_3^Tx_2 & x_4^Tx_2  \\
- x_1^Tx_3 & x_2^Tx_3 & x_3^Tx_3 & x_4^Tx_3  \\
- x_1^Tx_4 & x_2^Tx_4 & x_3^Tx_4 & x_4^Tx_4  \\
+   \frac{1}{n} \left[\begin{array}{rrrr} 
+ x_1^Tx_1 & x_1^Tx_2 & x_1^Tx_3 & x_1^Tx_4  \\
+ x_2^Tx_1 & x_2^Tx_2 & x_2^Tx_3 & x_2^Tx_4  \\
+ x_3^Tx_1 & x_3^Tx_2 & x_3^Tx_3 & x_3^Tx_4  \\
+ x_4^Tx_1 & x_4^Tx_2 & x_4^Tx_3 & x_4^Tx_4  \\
   \end{array}\right]
 $$
 
