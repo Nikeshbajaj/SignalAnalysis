@@ -123,29 +123,31 @@ $$(AB)^T = B^TA^T$$
 </p>
 -->
 
-
-<table>
+<p style="border:2px; border-style:solid; border-color:#3377FF; padding: 1em;">
+<table  width: 100%;>
   <tr>
   <td><b>Theorem</b>: <i>Covariance matrix is always symmetric</i>
-      <b>Proof</b>: lets ignore <b>n</b>
+    <br><b>Proof</b>: lets ignore <b>n</b>
       $$C_x^T = (X^TX)^T = X^T(X^{T})^T = X^TX = C_x$$
     <i>QED</i></td>
   <td>$$(AB)^T = B^TA^T$$</td>
   </tr>
 </table>
+</p>
 
 
-<table>
+<p style="border:2px; border-style:solid; border-color:#3377FF; padding: 1em;">
+<table width: 100%;>
   <tr>
     <td><b>Theorem</b>: <i>Covariance matrix is always symmetric</i>
-<b>Proof</b>: lets ignore <b>n</b>
+<br><b>Proof</b>: lets ignore <b>n</b>
 $$C_x^T = (X^TX)^T = X^T(X^{T})^T = X^TX = C_x$$
 <i>QED</i></td>
     <td>$$(AB)^T = B^TA^T$$</td>
     <td>.</td>
   </tr>
 </table>
-
+</p>
 
 <!--
 <hr>
