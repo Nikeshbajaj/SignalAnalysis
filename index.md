@@ -1,3 +1,10 @@
+---
+title: Signal Analysis
+layout: default
+---
+
+<script src='https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.4/MathJax.js?config=default'></script>
+
 # Tutorials on Signal Processing and Optimization techniques
 
 * [Linear Algebra](la.md)
