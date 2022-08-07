@@ -22,7 +22,7 @@ Then Covariance Matrix $$C_x$$ is computed as:
 
 $$C_x =  \frac{1}{n} X^TX$$
 
-which will be a $$m \times m$$ matrix.
+which will be a $$m \times m$$ matrix. In estimation theory, $$n-1$$ is used i.e. $$C_x =  \frac{1}{n-1} X^TX$$, as to estimate statistics from sample, rather than from population.
 
 Now the question is, what it is, and what does it tell us. To understand, this let's take a small example and go thorugh it. Let's consider a $$X$$ as
 The choice of X is very specific at this time (i.e. mean of each coumun is zero), which will be clear in short.
