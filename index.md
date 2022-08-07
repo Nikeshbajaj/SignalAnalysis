@@ -61,10 +61,14 @@ $$X^T = \left[\begin{array}{r}x_1^T\\
 
 
 <p style="text-align:center">
-$X^T = \left[\begin{array}{r}x_1^T\\
+---
+
+$$X^T = \left[\begin{array}{r}x_1^T\\
                             x_2^T\\
                             x_3^T\\
-                            x_4^T\\ \end{array}\right]$  and $X = \left[x_1, x_2, x_3, x_4\right]$
+                            x_4^T\\ \end{array}\right]$$  | and $$X = \left[x_1, x_2, x_3, x_4\right]$
+  
+---
 </p>
 
 
