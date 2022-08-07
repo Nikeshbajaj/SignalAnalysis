@@ -65,6 +65,19 @@ $$X^T = \left[\begin{array}{x_1^T\\
   \end{array}\right]
 $$
 
+
+$$Theorem:$$ *Covariance matrix is always symmetric*
+
+**Proof**: lets ignore n
+
+$$C_x^T = (X^TX)^T = X^T(X^{T})^T = X^TX = C_x$$
+
+*QED*
+
+
+
+
+
 <!--
 <hr>
 # Chapter 2
