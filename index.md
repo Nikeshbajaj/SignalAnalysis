@@ -4,7 +4,7 @@ layout: default
 ---
 <!--<script src='https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.4/MathJax.js?config=default'></script> -->
 
-# Table of Contents (in progress..)
+# Table of Contents (in progress...)
 * [Chapter 1: Linear Algebra](#chapter-1)
 * [Chapter 2: Least Square](#chapter-1)
 * [Chapter 3: Principle Compononent Ananlysis](#chapter-1)
@@ -35,7 +35,8 @@ $$X =
    1& -1&  3& -2&  \\
    2& -2&  4&  0&  \\
   \end{array}\right]
-$$     which leads to  $$C_x = 
+$$
+which leads to  $$C_x = 
   \left[\begin{array}{cc} 
    10 & -10 &  23 & -3 &  \\
   -10 &  10 & -23 &  3 &  \\
