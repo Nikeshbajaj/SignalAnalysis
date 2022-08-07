@@ -14,8 +14,16 @@ layout: default
 <hr>
 # Chapter 1
 ## Linear Algebra
+Linear Algebra is one of my favorite topic of mathematics (or of any subject ..). My hope is to make it as interesting for you as it is for me. Once you understand it, you would see, that it works like a **magic!!** (it is, at least to me). The most usuful thing, that I think is, any idea that you could visualize or develop for 2D graphs and plots, can be extended to higher dimensions and they works exactly same (most of the time).
 
 
+
+
+
+
+
+
+<br><br><br><br><br><br><br><br><br><br><br>
 ## Covariance Matrix
 Consider a matrix $$X \in R^{n\times m}$$, where $$X$$ has $$n$$ samples of $$m$$-different measuresments, i.e. $$m$$-channels signals. Typically, $$n>m$$. In other domain, $$m$$ is typically known as features, sources, independent variables etc. So, X is an Matrix with m features (measurements).
 
