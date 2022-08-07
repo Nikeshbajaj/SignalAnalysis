@@ -19,12 +19,14 @@ layout: default
 Consider a matrix $$X \in R^{n\times m}$$, where $$X$$ has $$n$$ samples of $$m$$-different measuresments, i.e. $$m$$-channels signals. Typically, $$n>m$$. In other domain, $$m$$ is typically known as features, sources, independent variables etc. So, X is an Matrix with m features (measurements).
 
 Then Covariance Matrix $$C_x$$ is computed as:
+
 $$C_x =  X^TX$$
 
 which will be a $$m \times m$$ matrix.
 
 Now the question is, what it is, and what does it tell us. To understand, this let's take a small example and go thorugh it. Let's consider a $$X$$ as
 The choice of X is very specific at this time (i.e. mean of each coumun is zero), which will be clear in short.
+
 $$X = 
   \left[\begin{array}{cc} 
   -2&  2& -4&  1&  \\
