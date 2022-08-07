@@ -51,7 +51,8 @@ If look into details, what is happining is, we are computing dot product of ever
 So, we have dot-product of each column with each other column, including it self. Lets name each column of $$X$$ as $$x_i$$ then
 
 $$X = \left[x_1, x_2, x_3, x_4\right]$$
-$$X^T = \left[\begin{array}{x_1^T\\
+
+$$X^T = \left[\begin{array}{r}x_1^T\\
                             x_2^T\\
                             x_3^T\\
                             x_4^T\\ \end{array}\right]$$
