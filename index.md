@@ -55,7 +55,7 @@ $$X^T = \left[\begin{array}{r}x_1^T\\
                             x_2^T\\
                             x_3^T\\
                             x_4^T\\ \end{array}\right]$$  and $$X = \left[x_1, x_2, x_3, x_4\right]$$
-
+\end{center}
 
 $$X^T = \left[\begin{array}{crc}
                         - & x_1^T & -\\
@@ -66,7 +66,7 @@ $$X^T = \left[\begin{array}{crc}
                         x_1 & x_2 & x_3  & x_4\\
                         |   & |   &  |   &  |\\  \end{array}\right]$$
 
-\end{center}
+
 
  $$C_x = 
     \frac{1}{n} X^TX = \frac{1}{n} \left[\begin{array}{rrrr} 
@@ -98,14 +98,15 @@ $$C_x^T = (X^TX)^T = X^T(X^{T})^T = X^TX = C_x$$
 *QED*
 \end{minipage}}
 
-<p style="border:3px; border-style:solid; border-color:#FF0000; padding: 1em;">
-  **Theorem**: *Covariance matrix is always symmetric*
+<p style="border:2px; border-style:solid; border-color:#3377FF; padding: 1em;">
+  
+<b>Theorem</b>: <i>Covariance matrix is always symmetric</i>
 
-  **Proof**: lets ignore n
+<b>Proof</b>: lets ignore n
 
-  $$C_x^T = (X^TX)^T = X^T(X^{T})^T = X^TX = C_x$$
+$$C_x^T = (X^TX)^T = X^T(X^{T})^T = X^TX = C_x$$
 
-  *QED*
+</i>QED</i>
 </p>
 
 
