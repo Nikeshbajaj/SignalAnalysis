@@ -92,7 +92,7 @@ $$X^T = \left[\begin{array}{crc}
   \end{array}\right]
 $$
 
-Notic that $$C_x$$ is symmetric, infact, Covariance Matrix is always Symmetric (Theorem A.1), Check Proof in Appendix. Now observing diagonal elements of $$C_x$$, they are dot-product of a column with it-self divided by **n**. Since each column has zero mean, this value $$\frac{1}{n} x_i^Tx_i$$ is nothing but *variance*. 
+Notic that $$C_x$$ is symmetric, infact, Covariance Matrix is always Symmetric (Theorem A.1), Check Proof in Appendix. Now observing diagonal elements of $$C_x$$, they are dot-product of a column with it-self divided by **n**. Since each column has zero mean, this value $$\frac{1}{n} x_i^Tx_i$$ is nothing but *variance* of $$x_i$$. 
 
 $$\frac{1}{n} x_i^Tx_i = \frac{1}{n}\sum_k x_i(k)^2 = \frac{1}{n}\sum_k ( x_i(k)-\tilde{x}_i )^2 = \sigma_{x_i}^2$$
 
