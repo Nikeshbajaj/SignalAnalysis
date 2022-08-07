@@ -18,6 +18,6 @@ Consider a matrix $X \in R^{n,m}$, where $X$ has n samples of m-different measur
 
 Covariance Matrix
 
-$$C_x =  X^T.X$$
+$$C_x =  X^TX$$
 
 
