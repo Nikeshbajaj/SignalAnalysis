@@ -102,15 +102,21 @@ two coulumns (two different measurements, two different features), that is: $$\s
 ### Covariance and Correlation
 There is direct relation between covariance and cross-correlation. Cross-correlation (typically called as correlation, unless it is computed for same measurement, then it is called as autocorrelation) between two measurements (x, and y ) is defined as:
 
-Correlation:  $$P_{xy} = \frac{1}{n}\sum_k ( x(k)-\tilde{x} )( y(k)-\tilde{y})/(\sigma_{x}\sigma_{y})$$, 
+Correlation:  $$P_{xy} = \frac{1}{n}\sum_k ( x(k)-\tilde{x} )( y(k)-\tilde{y})/(\sigma_{x}\sigma_{y})$$
+
 Covariance:         $$C_{xy} = \frac{1}{n}\sum_k ( x(k)-\tilde{x} )( y(k)-\tilde{y})$$, 
 
 For Covariance, denominator terms is not there. Due to normalizing factor in cross-corrlation, its value is bounded by -1 and 1, however, same can be be said for covariance. Still the interpretention of Covariance can be drawn from Correlation. If value is high and positive, x and y are linearly correlated, which means, if x increses, y increases. On the other side, if value is negatively high, the opposite is true, that is, if x increases, y decreases.
 
-**Note that, ZERO covaiance or Correlation only stats that there is no linear association between two given measurements, however, there could be non-linear relationship.**
+**Note that, ZERO Covaiance or Correlation only stats that there is no linear association between two given measurements, however, there could be a non-linear relationship, that exist.**
 
 
 
+
+
+
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 
 <hr>
 
