@@ -95,28 +95,6 @@ $$X^T = \left[\begin{array}{crc}
   \end{array}\right]
 $$
 
-<!--
------------------------------------------------------------
-**Theorem**: *Covariance matrix is always symmetric*
-
-**Proof**: lets ignore n
-
-$$C_x^T = (X^TX)^T = X^T(X^{T})^T = X^TX = C_x$$
-
-*QED*
-
------------------------------------------------------------
-
-\fbox{\begin{minipage}{15em}
-**Theorem**: *Covariance matrix is always symmetric*
-
-**Proof**: lets ignore n
-
-$$C_x^T = (X^TX)^T = X^T(X^{T})^T = X^TX = C_x$$
-*QED*
-\end{minipage}}
--->
-
 
 <p style="border:2px; border-style:solid; border-color:#3377FF; padding: 1em;">  
 
@@ -129,31 +107,12 @@ $$C_x^T = (X^TX)^T = X^T(X^{T})^T = X^TX = C_x$$
 <i>QED</i>
 </p>
 
-<!--
--------------
-| <p style="border:2px; border-style:solid; border-color:#3377FF; padding: 1em;">  
-
-<b>Theorem</b>: <i>Covariance matrix is always symmetric</i>
-<br>
-<b>Proof</b>: lets ignore <b>n</b>
-
-$$C_x^T = (X^TX)^T = X^T(X^{T})^T = X^TX = C_x$$
-
-<i>QED</i>
-</p> | <p style="border:1px; border-style:dash; border-color:#3377FF; padding: 1em;">  
-
-$$(AB)^T = B^TA^T$$
-
-</p> |
-
------------
--->
 
 <div class="row">
   <div class="column">
   <b>Theorem</b>: <i>Covariance matrix is always symmetric</i>
   <br>
-  <b>Proof</b>: lets ignore <b>n</b>
+  <b>Proof</b>: lets ignore <b>n</b>..
 
   $$C_x^T = (X^TX)^T = X^T(X^{T})^T = X^TX = C_x$$
 
