@@ -59,20 +59,21 @@ $$X^T = \left[\begin{array}{r}x_1^T\\
 \end{centre}$$
 -->
 
-<!--
+
 <p style="text-align:center">
----
-
 
 ---
+x  :   y  : x
+x  :   y  : x
+
+--
 </p>
--->
 
 
 $$X^T = \left[\begin{array}{r}x_1^T\\
                             x_2^T\\
                             x_3^T\\
-                            x_4^T\\ \end{array}\right]$$  and $$X = \left[x_1, x_2, x_3, x_4\right]$
+                            x_4^T\\ \end{array}\right]$$  and $$X = \left[x_1, x_2, x_3, x_4\right]$$
   
   
 $$X^T = \left[\begin{array}{crc}
