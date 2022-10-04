@@ -12,7 +12,9 @@ The objective of this section is to make signal processing more intutive for non
 * [Chapter 2: Filtering](#chapter-2)
 
 <hr>
+
 # Chapter 1: Signal
+
 ## What is Signal?
 
 ## Frequency representation
@@ -22,4 +24,5 @@ The objective of this section is to make signal processing more intutive for non
 
 
 <hr>
+
 # Chapter 2: Filtering
