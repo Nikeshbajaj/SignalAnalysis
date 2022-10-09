@@ -16,6 +16,12 @@ The objective of this section is to make signal processing more intutive for non
 # Chapter 1: Signal
 
 ## What is Signal?
+**Loosly speaking:** I used to explain 'signal' to undergraduate students, as anything that convay information is a signal . Information can be useful (i.e. message) or not (noise), varyies over time (voltage) or space (image). This makes everything around you as signal. You see (image) or hear (audio) anything or focus/record any one aspect (voltage, hand movement, monthly pockate money, your grades over the years), ***almost*** everything can be seen as signal. However word almost was a trick there.
+
+**Strictly speaking:** Any phenomenon; physical, electrical, biological, chemical, (even any hypothetical), that varies over time, space, or in any abstract dimension can be seen as a signal. The importance here is **the variation**. The variation of any phenomenon over any one or more dimensions can be a signal. A classical example of a signal (usually in text books) is a speech signal, x(t), where an aucostic pressure (recorded as voltage), varies over time. An image I(x,y), an intensity of light recorded, that varies over 2D space (in x and y cordinate systems). A video or moviev, I(x,y,t) is a recording of light intensity varying over space (x,y) and time (t). 
+
+Some more examples are 
+
 
 ## Frequency representation
 
