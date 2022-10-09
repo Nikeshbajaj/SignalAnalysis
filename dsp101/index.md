@@ -15,7 +15,7 @@ The objective of this section is to make signal processing more intutive for non
 
 # Chapter 1: Signal
 
-## What is Signal?
+## 1.1 What is Signal?
 **Loosly speaking:** I used to explain 'signal' to undergraduate students, as anything that convay information is a signal . Information can be useful (i.e. message) or not (noise), varyies over time (voltage) or space (image). This makes everything around you as signal. You see (image) or hear (audio) anything or focus/record any one aspect (voltage, hand movement, monthly pockate money, your grades over the years), ***almost*** everything can be seen as signal. However word almost was a trick there.
 
 **Strictly speaking:** Any phenomenon; physical, electrical, biological, chemical, (even any hypothetical), that varies over time, space, or in any abstract dimension can be seen as a signal. These phenomenon are not mutually exclusive, biological systems have physiocal, electrical and chemical processes, electrical systems are physical systems too. The importance here is **the variation**. The variation of any phenomenon over any one or more dimensions can be a signal. A classical example of a signal (us are noually in text books) is a speech signal, x(t), where an aucostic pressure (recorded as voltage), varies over time. An image I(x,y), an intensity of light recorded, that varies over 2D space (in x and y cordinate systems). A video or moviev, I(x,y,t) is a recording of light intensity varying over space (x,y) and time (t). 
@@ -30,14 +30,14 @@ Some more examples are here: Stocks price of a company changing over the time, y
 Above all examples and phenomenon are measured and/or recorded in one way or another. The measurement/recording of these quantities should be continuation in any one (at least) dimention (time, space, or any one). Notice the word - ***Variation*** in the quantity, that could be capture only if measurement is done more than once and continuation over at least one dimention. Measurement, voltage for example, at a signal point in time does not qualify it to be a sigal. Continuation over a dimention, does not define frequency of recording, such as 1 recording per second, per micro second, per month, or per year. There is a funny line I used to say "Computer science people call it data, and Electrical Engineers call it signal". However there is a catch, not all data are signal. For example, a table of data, where values are not varying over any dimension are not signal. They are again a single measurements of respective quantities.
 
 
-## Variation
+## 1.2 Variation
 
 
 
 
-## Frequency representation
+## 1.3 Frequency representation
 
-## Anolog to Digital (sampling)
+## 1.4 Anolog to Digital (sampling)
 
 
 
