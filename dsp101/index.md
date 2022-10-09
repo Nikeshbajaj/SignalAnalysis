@@ -23,7 +23,16 @@ The objective of this section is to make signal processing more intutive for non
 Some more examples are here: Stocks price of a company changing over the time, your daily expendature, electricity consuption of your house.
 * **Physical:** Air pressure recorded over time on a single point a(t), vibrations of machine or a system v(t), motion of an object in 3-dimensional world over a time, p(x,y,z,t).
 * **Electrical:** Voltage v(t)/current I(t) variation in a circuit.
-* **Biological:** Human body also exhibit eletrical properties: At cellular level - membrane potentials (voltage difference between in and out of a cell), firing rate of nueros in brain,  
+* **Biological:** Human body also exhibit eletrical properties: At cellular level - membrane potentials (voltage difference between in and out of a cell), firing rate of nueros in the brain. Blood sugar over a time. 
+* **Chemical:** Release/absorbtion of an energy, reaction time, strength of a bond, they all can vary over time.
+
+
+Above all examples and phenomenon are measured and/or recorded in one way or another. The measurement/recording of these quantities should be continuation in any one (at least) dimention (time, space, or any one). Notice the word - ***Variation*** in the quantity, that could be capture only if measurement is done more than once and continuation over at least one dimention. Measurement, voltage for example, at a signal point in time does not qualify it to be a sigal. Continuation over a dimention, does not define frequency of recording, such as 1 recording per second, per micro second, per month, or per year. There is a funny line I used to say "Computer science people call it data, and Electrical Engineers call it signal". However there is a catch, not all data are signal. For example, a table of data, where values are not varying over any dimension are not signal. They are again a single measurements of respective quantities.
+
+
+## Variation
+
+
 
 
 ## Frequency representation
