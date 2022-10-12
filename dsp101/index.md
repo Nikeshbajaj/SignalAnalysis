@@ -29,7 +29,7 @@ Some more examples are here: Stocks price of a company changing over the time, y
 
 Above all examples and phenomenon are measured and/or recorded in one way or another. The measurement/recording of these quantities should be continuation in any one (at least) dimention (time, space, or any one). Notice the word - ***Variation*** in the quantity, that could be capture only if measurement is done more than once and continuation over at least one dimention. Measurement, voltage for example, at a signal point in time does not qualify it to be a sigal. Continuation over a dimention, does not define frequency of recording, such as 1 recording per second, per micro second, per month, or per year. There is a funny line I used to say "Computer science people call it data, and Electrical Engineers call it signal". However there is a catch, not all data are signal. For example, a table of data, where values are not varying over any dimension of single phenomenon is not a signal. They are again a single measurements of respective quantities.
 
-![signal(figures/signal_1.png "Extracellular Potential")
+![signal](figures/signal_1.png "Extracellular Potential")
 
 
 ## 1.2 Variation: Frequency representation
